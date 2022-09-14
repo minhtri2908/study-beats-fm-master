@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\dotnet\;C:\Users\THIS PC\.cargo\bin;C:\Users\THIS PC\AppData\Local\Microsoft\WindowsApps;C:\Users\THIS PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\THIS PC\AppData\Roaming\npm;C:\Users\THIS PC\AppData\Local\Yarn\bin;C:\Users\THIS PC\.dotnet\tools;C:\Users\THIS PC\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  18.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\THIS PC\Desktop\study-beats-fm-master\study-beats-fm-master\StudyBeatsFM\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "study",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "framer-motion": "^6.0.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-player": "^2.9.0",
+      "react-router-dom": "^6.2.2",
+      "redux": "^4.1.2",
+      "video-react": "^0.15.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^1.0.7",
+      "vite": "^2.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
